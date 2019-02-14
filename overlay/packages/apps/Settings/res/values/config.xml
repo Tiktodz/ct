@@ -24,4 +24,6 @@
   <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
   <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
 
+  <!-- Enable support for bokeh mode -->
+  <bool name="support_bokeh_mode">true</bool>
 </resources>
