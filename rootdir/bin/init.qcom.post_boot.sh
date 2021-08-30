@@ -2669,8 +2669,12 @@ case "$target" in
 
 
             # cpuset settings
-            echo 0-3 > /dev/cpuset/background/cpus
+            echo 0-7 > /dev/cpuset/top-app/cpus
+            echo 0-7 > /dev/cpuset/foreground/cpus
+            echo 0-1 > /dev/cpuset/background/cpus
             echo 0-3 > /dev/cpuset/system-background/cpus
+            echo 0-7 > /dev/cpuset/camera-daemon/cpus
+            echo 0-3 > /dev/cpuset/restricted/cpus
 
             #if the kernel version >=4.14,use the schedutil governor
             KernelVersionStr=`cat /proc/sys/kernel/osrelease`
