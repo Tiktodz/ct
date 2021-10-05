@@ -481,5 +481,5 @@ PRODUCT_PACKAGES += \
     libstagefright_enc_common
 
 # Zen Parts
-PRODUCT_PACKAGES += \
-    ZenParts
+# PRODUCT_PACKAGES += \
+#    ZenParts
