@@ -77,7 +77,11 @@ BOARD_KERNEL_IMAGE_NAME  := Image.gz-dtb
 TARGET_KERNEL_CLANG_VERSION := proton
 KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin/aarch64-linux-gnu-
 
+ifeq ($(COMPILE_GCC),true)
+TARGET_KERNEL_NEW_GCC_COMPILE := true
+else
 TARGET_KERNEL_CLANG_COMPILE := true
+endif
 TARGET_KERNEL_SOURCE := kernel/asus/sdm660
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
