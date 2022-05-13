@@ -95,6 +95,15 @@ ro.EMPTY_APP_ADJ=15
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# Responsiveness & Speed
+ro.telephony.call_ring.delay=0
+ro.ril.enable.amr.wideband=1
+ro.lge.proximity.delay=25
+mot.proximity.delay=25
+pm.sleep_mode=1
+ro.config.nocheckin=1
+ro.config.vc_call_default=10
+
 # RIL
 DEVICE_PROVISIONED=1
 persist.radio.VT_CAM_INTERFACE=2
