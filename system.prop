@@ -2,9 +2,6 @@
 # system.prop for sdm660
 #
 
-# Adding maintainer tag
-ro.spark.maintainer=Tiktodz
-
 # Bluetooth
 bt.max.hfpclient.connections=1
 vendor.bluetooth.soc=cherokee
