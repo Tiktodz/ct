@@ -48,7 +48,7 @@ vendor.vidc.dec.enable.downscalar=1
 vendor.vidc.enc.disable.pq=true
 
 # Netflix
-ro.netflix.bsp_rev=Q6115-31409-1
+ro.netflix.bsp_rev=Q660-13149-1
 
 # NFC
 ro.nfc.port=I2C
