@@ -1,6 +1,9 @@
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
+# Rich-Communication Services
+persist.rcs.supported=1
+
 # Memory Management
 ro.config.fha_enable=true 
 ro.sys.fw.bg_apps_limit=32 
